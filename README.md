@@ -399,6 +399,17 @@ The Executive Dashboard provided leadership with a real-time operational summary
 
 <img width="1885" height="801" alt="image" src="https://github.com/user-attachments/assets/cc519699-b2d7-487e-8cd1-849b5e3325e4" />
 
+**Purpose**
+
+Provides leadership with a real-time overview of detainee records operations, production metrics, and compliance status.
+
+**Business Value**
+
+- Executive visibility
+- Operational awareness
+- Audit readiness
+- Decision support
+
 ---
 
 ### Master Records Database
@@ -437,13 +448,35 @@ Generated operational KPIs including records processed, backlog status, monthly 
 
 ---
 
+### Formula Examples
+
+# Completion Percentage
+
+<img width="1217" height="255" alt="image" src="https://github.com/user-attachments/assets/540912de-c5f9-46f0-961f-7967b68ec99f" />
+
+# Status 
+
+<img width="1517" height="235" alt="image" src="https://github.com/user-attachments/assets/f26b5734-71e2-4737-afba-90aeeb479fb9" />
+
+# Conditional Formatting Rules
+
+<img width="1455" height="1097" alt="image" src="https://github.com/user-attachments/assets/4ee1984d-fbe4-4288-9883-48afec0c1b0a" />
+
+# Data Validation
+
+<img width="740" height="462" alt="image" src="https://github.com/user-attachments/assets/abae7f84-d609-4f6b-9e8b-e21dc77887a1" />
+
+---
+
 ### Compliance Tracking
 
 Maintained accountability for required documentation, identified missing records, monitored audit readiness, and ensured every released detainee record could be located quickly.
 
 ---
 
-# Multi-Facility Deployment
+### Multi-Facility Deployment
+
+Following successful implementation at Alligator Alcatraz, the records management framework was adopted at Baker Correctional Institution with only minor operational adjustments, demonstrating the portability and scalability of the system design.
 
 ## Initial Implementation
 
