@@ -144,8 +144,6 @@ Once current operations were stabilized, historical records dating back to July 
 
 ---
 
-## Decision 2 — Centralize Operational Visibility
-
 ## Decision 2 — Organize Records by Operational Month
 
 Rather than maintaining a single continuously growing worksheet, the records management platform was organized into individual monthly operational databases.
