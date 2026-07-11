@@ -284,42 +284,32 @@ Each detainee record progressed through a series of validation checkpoints befor
 ```mermaid
 flowchart TD
 
-A[Released Detainee] --> B[Create Record Entry]
+    A[Released Detainee] --> B[Create Record Entry]
 
-B --> C{Required Documents Complete?}
+    B --> C{Required Documents Complete?}
 
-C -- No --> D[Outstanding Documentation]
-D --> B
+    C -->|No| D[Outstanding Documentation]
+    D --> B
 
-C -- Yes --> E[Assign Release Month]
+    C -->|Yes| E[Assign Release Month]
 
-E --> F[Update Master Database]
+    E --> F[Update Master Database]
 
-F --> G{Quality Review}
+    F --> G{Quality Review}
 
-G -- Corrections Needed --> B
+    G -->|Corrections Needed| B
+    G -->|Approved| H[Executive Dashboard]
 
-G -- Approved --> H[Included in Executive Dashboard]
+    H --> I[Audit Ready]
+```
+### Primary Business Rules
 
-H --> I[Audit Ready]
-
----
-
-# Primary Business Rules
-
-```markdown
-## Primary Business Rules
-
-The system enforced the following operational rules:
-
-- Every released detainee required a single master record.
-- Records could not be considered complete until all required documentation was accounted for.
+- Every released detainee required a master record.
+- Records were not considered complete until all required documentation was accounted for.
 - Every record was assigned to its operational release month.
-- Duplicate record entries were prohibited.
-- Missing documentation remained visible until resolved.
+- Duplicate records were prohibited.
 - Executive dashboards only reported validated records.
-- Operational metrics were generated directly from the master database.
-- Records remained searchable after completion to support future audits.
+- All validated records remained searchable to support future audits.
 
 ---
 
