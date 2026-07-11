@@ -659,10 +659,6 @@ While a modern cloud-based solution would offer greater scalability, the Excel-b
 
 ---
 
-# Future Enhancements
-
----
-
 # Project Reflection
 
 This project reinforced that successful business solutions are not defined by the technology used, but by how effectively they solve operational problems.
