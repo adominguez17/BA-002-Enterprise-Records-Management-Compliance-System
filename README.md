@@ -105,26 +105,6 @@ The process depended almost entirely on manual searching and institutional knowl
 
 ---
 
-# Implementation Strategy
-
-Rather than attempting to organize six months of historical paper records before deploying the system, I prioritized operational risk.
-
-The implementation strategy focused on establishing the records management platform for **current-year operations (January 2026 forward)** so that all new detainee records entering the system were immediately tracked using standardized workflows.
-
-This approach ensured the facility remained current with all active releases while creating a stable operational process that would withstand an unexpected audit.
-
-Once daily operations were under control, historical detainee records dating back to the facility's opening in **July 2025** were systematically reviewed and entered into the platform until the historical backlog was fully reconciled through **December 2025**.
-
-This phased implementation allowed the organization to:
-
-- Establish immediate operational accountability.
-- Maintain current-year compliance.
-- Reduce audit risk.
-- Continue daily operations without interruption.
-- Gradually eliminate the historical records backlog while preserving ongoing operational readiness.
-
----
-
 # Key Business Decisions
 
 The design of the Enterprise Records Management & Operational Compliance Platform was driven by operational risk, scalability, and long-term sustainability rather than simply organizing historical records.
@@ -201,6 +181,25 @@ Because every monthly database followed the same architecture, new operational p
 The overall architecture was intentionally standardized so the operational framework could be recreated at additional detention facilities.
 
 This design approach later enabled successful implementation at Baker Correctional Institution using the same operational methodology.
+
+# Implementation Strategy
+
+Rather than attempting to organize six months of historical paper records before deploying the system, I prioritized operational risk.
+
+The implementation strategy focused on establishing the records management platform for **current-year operations (January 2026 forward)** so that all new detainee records entering the system were immediately tracked using standardized workflows.
+
+This approach ensured the facility remained current with all active releases while creating a stable operational process that would withstand an unexpected audit.
+
+Once daily operations were under control, historical detainee records dating back to the facility's opening in **July 2025** were systematically reviewed and entered into the platform until the historical backlog was fully reconciled through **December 2025**.
+
+This phased implementation allowed the organization to:
+
+- Establish immediate operational accountability.
+- Maintain current-year compliance.
+- Reduce audit risk.
+- Continue daily operations without interruption.
+- Gradually eliminate the historical records backlog while preserving ongoing operational readiness.
+
 ---
 
 # Solution Overview
