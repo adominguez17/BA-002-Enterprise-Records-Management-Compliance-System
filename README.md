@@ -2,9 +2,10 @@
 
 > Business Analytics Portfolio Series
 
-> Designed and implemented a centralized enterprise records management system that standardized document workflows, automated compliance tracking, and improved operational reporting across multiple detention facilities.
+Designed and implemented a centralized operational records management platform that standardized document workflows, automated compliance tracking, improved executive reporting, and was successfully deployed across multiple detention facilities.
 
 ---
+
 # 📊 Project Snapshot
 
 | Category | Details |
@@ -12,9 +13,9 @@
 | Role | Business Analyst / Solution Designer |
 | Industry | Detention Operations |
 | Primary Skill | Operations Management |
-| Secondary Skills | Process Improvement, Compliance, Dashboard Development |
-| Primary Tools | Microsoft Excel, Power Query, Advanced Formulas |
-| Project Type | Enterprise Records Management |
+| Secondary Skills | Business Analysis, Process Improvement, Compliance Management |
+| Primary Tools | Microsoft Excel, Advanced Excel Formulas, Dashboard Development |
+| Project Type | Enterprise Operational Compliance Platform |
 | Status | Production Implementation |
 | Deployment | Alligator Alcatraz & Baker Correctional Institution |
 
@@ -49,86 +50,125 @@
 ```mermaid
 flowchart TD
 
-A[Source Systems]
-B[Power Query]
-C[Data Validation]
-D[Records Management Engine]
-E[Operational Dashboards]
-F[Executive Reporting]
+A[Daily Operational Records]
+B[Master Records Database]
+C[Business Rules & Validation]
+D[Operational Records Engine]
+E[Executive Dashboard]
+F[Forecasting & Auditor Reporting]
+G[Leadership Decision Support]
 
 A --> B
 B --> C
 C --> D
 D --> E
-E --> F
+D --> F
+E --> G
+F --> G
 ```
 
 ---
 
-# Solution Architecture
+# System Architecture
 
 ```mermaid
 flowchart TD
 
-A[Employee Records]
-B[Legal Records]
-C[Mail Tracking]
-D[Grievances]
-E[Virtual Meetings]
-F[Executive Dashboard]
+A[Master Records Database]
 
-A --> F
-B --> F
-C --> F
-D --> F
-E --> F
+A --> B[Release Tracking]
+A --> C[Document Completion]
+A --> D[Operational Status]
+A --> E[Forecasting]
+A --> F[Auditor Performance]
+
+B --> G[Executive Dashboard]
+C --> G
+D --> G
+E --> G
+F --> G
 ```
 
 ---
 
-# System Modules
+# Core System Modules
+
+### Master Records Database
 
 ---
 
-# Data Flow
+### Executive Dashboard
 
 ---
 
-# Dashboard & Reporting
+### Forecasting Engine
 
 ---
 
-# Compliance Controls
+### Auditor Performance Reporting
+
+---
+
+### Operational Metrics
+
+---
+
+### Compliance Tracking
+
+---
+
+# Business Rules & Validation
+
+---
+
+# Dashboard & Executive Reporting
+
+---
+
+# Forecasting & Workforce Planning
+
+---
+
+# Operational Compliance Controls
 
 ---
 
 # Multi-Facility Deployment
 
-## Initial Deployment
+## Initial Implementation
 
-- Alligator Alcatraz
+### Alligator Alcatraz
+
+---
+
+## Standardization
+
+Documented operational workflows that could be reproduced across facilities with minimal configuration.
+
+---
 
 ## Secondary Deployment
 
-- Baker Correctional Institution
+### Baker Correctional Institution
 
-## Standardization Benefits
+Successfully recreated the operational records management platform using the same architecture and reporting methodology.
 
 ---
 
 # Technologies Used
 
 - Microsoft Excel
-- Power Query
+- Structured Tables
 - Advanced Excel Formulas
-- Dynamic Arrays
-- XLOOKUP
-- LET
-- FILTER
-- COUNTIFS
+- COUNTIF / COUNTIFS
+- SUMIFS
+- IF / Nested IF Logic
 - Conditional Formatting
 - Data Validation
 - Dashboard Design
+- Forecast Modeling
+- KPI Reporting
+- Executive Reporting
 
 ---
 
@@ -152,25 +192,31 @@ E --> F
 
 ---
 
-## Records Management Dashboard
+## Master Records Database
 
 *(Coming Soon)*
 
 ---
 
-## Power Query Workflow
+## Forecasting Dashboard
 
 *(Coming Soon)*
 
 ---
 
-## Data Validation
+## Auditor Performance Reporting
 
 *(Coming Soon)*
 
 ---
 
-## Operational Reports
+## Operational Metrics
+
+*(Coming Soon)*
+
+---
+
+## Formula Examples
 
 *(Coming Soon)*
 
@@ -187,5 +233,3 @@ E --> F
 # Related Projects
 
 - BA-001 | Workforce Planning & Scheduling System
-- BA-003 | Executive Dashboard Suite
-- BA-004 | Grievance Tracking System
