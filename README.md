@@ -305,9 +305,6 @@ H --> I[Audit Ready]
 
 ---
 
-# Primary Business Rules
-
-```markdown
 ## Primary Business Rules
 
 The system enforced the following operational rules:
@@ -322,6 +319,7 @@ The system enforced the following operational rules:
 - Records remained searchable after completion to support future audits.
 
 ---
+
 ## Validation Rules
 
 The database included multiple validation checkpoints to maintain data quality.
