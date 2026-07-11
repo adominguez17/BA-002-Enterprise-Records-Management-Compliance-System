@@ -630,44 +630,6 @@ The project evolved from a local records tracking solution into a repeatable ope
 
 ---
 
-# Screenshots
-
-## Executive Dashboard
-
-*(Coming Soon)*
-
----
-
-## Master Records Database
-
-*(Coming Soon)*
-
----
-
-## Forecasting Dashboard
-
-*(Coming Soon)*
-
----
-
-## Auditor Performance Reporting
-
-*(Coming Soon)*
-
----
-
-## Operational Metrics
-
-*(Coming Soon)*
-
----
-
-## Formula Examples
-
-*(Coming Soon)*
-
----
-
 # What I'd Do Differently Today
 
 The Excel-based architecture successfully met the operational requirements of two active detention facilities and enabled rapid deployment without requiring additional software licensing or infrastructure.
