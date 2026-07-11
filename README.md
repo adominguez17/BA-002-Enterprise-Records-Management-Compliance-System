@@ -146,9 +146,23 @@ Once current operations were stabilized, historical records dating back to July 
 
 ## Decision 2 — Centralize Operational Visibility
 
-Rather than creating separate spreadsheets for different operational functions, a single master records database became the authoritative source for dashboards, auditor reporting, workload forecasting, and executive reporting.
+## Decision 2 — Organize Records by Operational Month
 
-This reduced duplicate data entry while ensuring leadership metrics were generated from a consistent data source.
+Rather than maintaining a single continuously growing worksheet, the records management platform was organized into individual monthly operational databases.
+
+Each operational month contained its own standardized records worksheet while maintaining the same structure, formulas, reporting logic, and workflow.
+
+### Business Rationale
+
+This design made the system easier for both leadership and operational staff to navigate by:
+
+- Reducing visual complexity.
+- Allowing staff to focus only on the current month's workload.
+- Preserving completed months as historical operational records.
+- Simplifying monthly reporting and audit preparation.
+- Providing a consistent structure that could be replicated each month.
+
+Because every monthly database followed the same architecture, new operational periods could be created quickly without redesigning the system, providing a standardized framework for long-term records management.
 
 ---
 
