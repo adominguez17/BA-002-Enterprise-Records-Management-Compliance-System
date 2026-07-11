@@ -182,6 +182,8 @@ The overall architecture was intentionally standardized so the operational frame
 
 This design approach later enabled successful implementation at Baker Correctional Institution using the same operational methodology.
 
+---
+
 # Implementation Strategy
 
 Rather than attempting to organize six months of historical paper records before deploying the system, I prioritized operational risk.
