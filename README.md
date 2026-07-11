@@ -303,8 +303,6 @@ G -- Approved --> H[Included in Executive Dashboard]
 
 H --> I[Audit Ready]
 
----
-
 ## Primary Business Rules
 
 The system enforced the following operational rules:
