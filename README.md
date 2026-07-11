@@ -413,15 +413,27 @@ Every operational dashboard, report, and compliance metric was generated from th
 
 ---
 
+### Monthly Workbook Structure
+
+Records were organized into monthly operational workbooks, simplifying navigation for auditors, supervisors, and leadership while maintaining a consistent structure throughout the year.
+
+<img width="1082" height="815" alt="image" src="https://github.com/user-attachments/assets/f8a5d78e-4ebc-4d8e-9cc4-2e7f79c3451e" />
+
+<img width="1417" height="841" alt="image" src="https://github.com/user-attachments/assets/18b8e1a0-2e69-4953-a1d3-b95fe8cee21d" />
+
 ### Auditor Performance Reporting
 
-Tracked auditor productivity by measuring records completed, pending workload, completion percentages, and historical performance trends.
+Individual productivity reporting enabled supervisors to monitor workload distribution, completion rates, and overall processing performance.
+
+<img width="1470" height="833" alt="image" src="https://github.com/user-attachments/assets/7ba83d60-e0f4-4721-88cd-f1caea459986" />
 
 ---
 
 ### Operational Metrics
 
 Generated operational KPIs including records processed, backlog status, monthly completion rates, average processing times, and overall facility progress.
+
+<img width="457" height="823" alt="image" src="https://github.com/user-attachments/assets/ee513b93-838d-4098-8a87-e6a7389a0933" />
 
 ---
 
