@@ -277,6 +277,129 @@ flowchart TD
 
 # Business Rules & Validation
 
+The records management system enforced a standardized workflow to ensure document accountability, operational consistency, and audit readiness across the facility.
+
+Each detainee record progressed through a series of validation checkpoints before being considered complete.
+
+```mermaid
+flowchart TD
+
+A[Released Detainee] --> B[Create Record Entry]
+
+B --> C{Required Documents Complete?}
+
+C -- No --> D[Outstanding Documentation]
+D --> B
+
+C -- Yes --> E[Assign Release Month]
+
+E --> F[Update Master Database]
+
+F --> G{Quality Review}
+
+G -- Corrections Needed --> B
+
+G -- Approved --> H[Included in Executive Dashboard]
+
+H --> I[Audit Ready]
+
+---
+
+# Primary Business Rules
+
+```markdown
+## Primary Business Rules
+
+The system enforced the following operational rules:
+
+- Every released detainee required a single master record.
+- Records could not be considered complete until all required documentation was accounted for.
+- Every record was assigned to its operational release month.
+- Duplicate record entries were prohibited.
+- Missing documentation remained visible until resolved.
+- Executive dashboards only reported validated records.
+- Operational metrics were generated directly from the master database.
+- Records remained searchable after completion to support future audits.
+
+---
+## Validation Rules
+
+The database included multiple validation checkpoints to maintain data quality.
+
+| Validation | Purpose |
+|------------|---------|
+| Required Documents | Prevent incomplete record closure |
+| Duplicate Check | Prevent duplicate detainee records |
+| Release Date Validation | Ensure correct monthly assignment |
+| Completion Status | Track outstanding work |
+| Auditor Assignment | Identify responsibility for processing |
+| Monthly Rollup | Support executive reporting |
+| Dashboard Metrics | Generate operational KPIs |
+| Audit Readiness | Confirm record availability during inspections |
+
+---
+
+## Why These Rules Mattered
+
+Rather than serving as a simple filing log, the records management system functioned as an operational control mechanism.
+
+These validation rules ensured that:
+
+- leadership always had an accurate picture of operational progress,
+- auditors could quickly locate required documentation,
+- incomplete records remained visible until resolved,
+- duplicate work was minimized, and
+- the facility maintained continuous audit readiness.
+
+---
+
+# Operational Recovery Strategy
+
+Rather than attempting to reconstruct six months of historical records immediately, I adopted a phased implementation strategy focused on reducing operational risk.
+
+The first priority was preventing the backlog from continuing to grow. I implemented the records management system for current operations beginning in January 2026, ensuring that every new detainee release was tracked in real time and that the facility would remain audit-ready moving forward.
+
+Once current operations had stabilized, I shifted focus to reconstructing historical records from the facility's opening in July 2025 through December 2025. This phased approach allowed day-to-day operations to continue uninterrupted while systematically eliminating the historical backlog.
+
+By completing both phases, the facility achieved complete detainee records accountability and established a sustainable operational process that was later replicated at Baker Correctional Institution.
+
+```mermaid
+timeline
+    title Operational Recovery Strategy
+
+    July 2025 : Facility Opens
+              : Paper Records Begin Accumulating
+
+    January 2026 : Assigned Records Management Project
+                 : No Centralized Tracking System
+
+    January 2026 : Built Master Records Database
+                 : Began Tracking Current Releases
+
+    February 2026 : Current Operations Stabilized
+                  : Continuous Daily Tracking Established
+
+    March–June 2026 : Reconstructed Historical Records
+                    : Eliminated July–December 2025 Backlog
+
+    July 2026 : Complete Records Accountability
+              : Audit-Ready Operations
+
+    2026–Present : Framework Replicated
+                 : Baker Correctional Institution
+```
+
+## Strategic Outcome
+
+This phased recovery strategy achieved several critical operational objectives:
+
+- Prevented the historical backlog from continuing to grow.
+- Established continuous records accountability for all new releases.
+- Enabled audit readiness while historical records were reconstructed.
+- Reduced operational risk by prioritizing current-year compliance.
+- Successfully recovered more than 20,000 detainee records at Alligator Alcatraz.
+- Created a standardized framework later deployed at Baker Correctional Institution, where it continues to support records operations.
+
 ---
 
 ### Executive Dashboard
