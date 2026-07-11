@@ -256,43 +256,56 @@ F --> G
 
 # Core System Modules
 
-### Master Records Database
+```mermaid
+flowchart TD
 
----
+    A[Master Records Database]
 
-### Executive Dashboard
+    A --> B[Executive Dashboard]
+    A --> C[Forecasting Engine]
+    A --> D[Auditor Performance Reporting]
+    A --> E[Operational Metrics]
+    A --> F[Compliance Tracking]
 
----
-
-### Forecasting Engine
-
----
-
-### Auditor Performance Reporting
-
----
-
-### Operational Metrics
-
----
-
-### Compliance Tracking
-
+    B --> G[Leadership Decisions]
+    C --> G
+    D --> G
+    E --> G
+    F --> G
+```
 ---
 
 # Business Rules & Validation
 
 ---
 
-# Dashboard & Executive Reporting
+### Executive Dashboard
+
+Provided leadership with real-time visibility into detainee record accountability, monthly workload, completion rates, auditor productivity, and operational performance.
 
 ---
 
-# Forecasting & Workforce Planning
+### Forecasting Engine
+
+Projected monthly workload by monitoring release activity, outstanding records, and anticipated document processing requirements, allowing supervisors to plan staffing and priorities.
 
 ---
 
-# Operational Compliance Controls
+### Auditor Performance Reporting
+
+Tracked auditor productivity by measuring records completed, pending workload, completion percentages, and historical performance trends.
+
+---
+
+### Operational Metrics
+
+Generated operational KPIs including records processed, backlog status, monthly completion rates, average processing times, and overall facility progress.
+
+---
+
+### Compliance Tracking
+
+Maintained accountability for required documentation, identified missing records, monitored audit readiness, and ensured every released detainee record could be located quickly.
 
 ---
 
