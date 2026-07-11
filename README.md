@@ -420,13 +420,46 @@ The Enterprise Records Management & Operational Compliance Platform produced mea
 
 ---
 
-# Lessons Learned
+# What I'd Do Differently Today
+
+The Excel-based architecture successfully met the operational requirements of two active detention facilities and enabled rapid deployment without requiring additional software licensing or infrastructure.
+
+If I were designing this solution today, I would transition the platform to a cloud-based architecture to improve scalability, automation, and long-term maintainability.
+
+### Modern Architecture
+
+- Migrate the master records database to **Microsoft SQL Server** or **Microsoft Dataverse**.
+- Replace Excel reporting with interactive **Power BI** executive dashboards.
+- Automate document ingestion and workflow notifications using **Microsoft Power Automate**.
+- Implement role-based security and centralized access management.
+- Enable real-time collaboration without maintaining multiple workbook versions.
+- Build audit history and document versioning directly into the platform.
+
+### Why Excel Was the Right Choice
+
+At the time of implementation, Excel provided the fastest path to delivering an operational solution under immediate business constraints. The system successfully:
+
+- Accounted for more than **20,000 detainee records** at Alligator Alcatraz.
+- Was replicated and successfully deployed at **Baker Correctional Institution**.
+- Eliminated manual records tracking.
+- Supported operational reporting and audit readiness.
+- Required no additional software purchases or infrastructure changes.
+
+While a modern cloud-based solution would offer greater scalability, the Excel-based platform achieved its primary objective: rapidly delivering a reliable operational records management system that became the standard across multiple facilities.
 
 ---
 
 # Future Enhancements
 
 ---
+
+# Project Reflection
+
+This project reinforced that successful business solutions are not defined by the technology used, but by how effectively they solve operational problems.
+
+Rather than beginning with software selection, I focused on understanding the operational workflow, identifying the highest business risk, and designing a process that staff could realistically adopt. The technology supported the process—not the other way around.
+
+The experience also demonstrated the value of building solutions that can be standardized and replicated. After proving successful at Alligator Alcatraz, the same records management framework was deployed at Baker Correctional Institution with minimal modification.
 
 # Related Projects
 
