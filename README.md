@@ -144,7 +144,7 @@ Once current operations were stabilized, historical records dating back to July 
 
 ---
 
-## Decision 2 — Organize Records by Operational Month
+## Decision 2 — Design for Operational Simplicity
 
 Rather than maintaining a single continuously growing worksheet, the records management platform was organized into individual monthly operational databases.
 
@@ -164,7 +164,7 @@ Because every monthly database followed the same architecture, new operational p
 
 ---
 
-## Decision 3 — Design for Reuse
+## Decision 3 — Design for Reuse Across Facilities
 
 The overall architecture was intentionally standardized so the operational framework could be recreated at additional detention facilities.
 
