@@ -65,6 +65,14 @@ The challenge was not simply creating a database—it was implementing a sustain
 
 ---
 
+# Project Objectives
+
+---
+
+# Existing Process
+
+---
+
 # Implementation Strategy
 
 Rather than attempting to organize six months of historical paper records before deploying the system, I prioritized operational risk.
@@ -85,12 +93,70 @@ This phased implementation allowed the organization to:
 
 ---
 
-# Project Objectives
+# Key Business Decisions
+
+The design of the Enterprise Records Management & Operational Compliance Platform was driven by operational risk, scalability, and long-term sustainability rather than simply organizing historical records.
+
+## Decision 1 — Prioritize Current Operations
+
+### Challenge
+
+The facility had accumulated approximately six months of historical paper records before a centralized tracking system existed.
+
+At the same time, leadership expected an external audit at an unknown date while daily operational records continued to increase.
+
+### Options Considered
+
+**Option A**
+
+- Organize historical records first.
+- Delay implementation until backlog was complete.
+
+**Advantages**
+
+- Historical records completed first.
+
+**Disadvantages**
+
+- Current operational records would continue growing.
+- Increased risk of falling further behind.
+- Greater exposure if an audit occurred unexpectedly.
 
 ---
 
-# Existing Process
+**Option B (Selected)**
 
+- Implement the records management platform immediately for all current operations.
+- Keep current-year records continuously up to date.
+- Eliminate the historical backlog after operational stability was achieved.
+
+### Business Rationale
+
+This approach minimized operational risk by ensuring every new detainee record entering the system was immediately tracked while preventing the backlog from continuing to grow.
+
+Once current operations were stabilized, historical records dating back to July 2025 were systematically entered until full accountability was achieved.
+
+**Outcome**
+
+- Immediate operational control established.
+- Audit readiness significantly improved.
+- Historical backlog eliminated without interrupting daily operations.
+
+---
+
+## Decision 2 — Centralize Operational Visibility
+
+Rather than creating separate spreadsheets for different operational functions, a single master records database became the authoritative source for dashboards, auditor reporting, workload forecasting, and executive reporting.
+
+This reduced duplicate data entry while ensuring leadership metrics were generated from a consistent data source.
+
+---
+
+## Decision 3 — Design for Reuse
+
+The overall architecture was intentionally standardized so the operational framework could be recreated at additional detention facilities.
+
+This design approach later enabled successful implementation at Baker Correctional Institution using the same operational methodology.
 ---
 
 # Solution Overview
